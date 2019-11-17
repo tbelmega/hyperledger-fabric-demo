@@ -1,0 +1,17 @@
+{
+	"name": "car-part-tracking",
+	"version": "1.0.0",
+	"description": "Hyperledger Fabric Demo - Cart Parts Inventory Tracking",
+	"author": "Thiemo Belmega",
+	"engines": {
+		"node": ">=8.4.0",
+		"npm": ">=5.3.0"
+	},
+	"scripts": {
+		"start": "node car-part-tracking.js"
+	},
+	"engine-strict": true,
+	"dependencies": {
+		"fabric-shim": "~1.4.0"
+	}
+}

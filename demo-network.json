@@ -1,0 +1,17 @@
+{
+  "channels": ["ch1"],
+  "topology": {
+    "supplier": {
+      "channels": ["ch1"],
+      "users": ["Alice"]
+    },
+    "carrier": {
+      "channels": ["ch1"],
+      "users": ["Bob"]
+    },
+    "plant": {
+      "channels": ["ch1"],
+      "users": ["Charlie"]
+    }
+  }
+}
